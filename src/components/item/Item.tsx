@@ -1,13 +1,13 @@
 
 import Button from "@material-ui/core/Button"
 
-import {CardItem} from "../../App";
+import {ICardItem} from "../../App";
 
 import { Wrapper } from "./Item.styles"
 
 type Props = {
-    item: CardItem,
-    handleAddToCart: (clikedItem: CardItem) => void;
+    item: ICardItem,
+    handleAddToCart: (clikedItem: ICardItem) => void;
 }
 
 const Item: React.FC<Props> = ({item, handleAddToCart}) => (
